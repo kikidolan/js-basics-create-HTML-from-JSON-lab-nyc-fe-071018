@@ -27,7 +27,7 @@ let audienceScore = document.getElementById('audienceScore')
   filmRating.innerHTML = movies['Titanic'].filmRating
   poster.setAttribute('src', movies['Titanic'].poster)
   description.innerHTML = movies['Titanic'].description
-  audienceScore.innterHTML =movies['Titanic'].audienceScore
+  audienceScore.innterHTML = movies['Titanic'].audienceScore
   
   } 
 
