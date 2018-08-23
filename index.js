@@ -20,5 +20,5 @@ let filmRating = document.getElementById('filmRating')
   title.innerHTML = 'Hi'
   } 
   
-  updateHTMLContent
+  updateHTMLContent()
   
