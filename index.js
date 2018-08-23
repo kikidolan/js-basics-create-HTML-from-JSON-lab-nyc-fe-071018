@@ -39,6 +39,7 @@ let cast - document.getElementById('cast')
     let actor = currentMovie.cast[i].actor
     castInnerHTML += ("<li>" + role +":" + actor +"</li>")
   }
-  } 
+  castInnerHTML += "</ul>"
+} 
 
   
