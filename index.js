@@ -23,6 +23,7 @@ let poster = document.getElementById('poster')
 let description = document.getElementById('description')
 let audienceScore = document.getElementById('audienceScore')
 let currentMovie = movies[movieName]
+let cast - document.getElementById('cast')
 
   title.innerHTML = currentMovie.title
   director.innerHTML = currentMovie.director
@@ -31,7 +32,13 @@ let currentMovie = movies[movieName]
   poster.setAttribute('src', currentMovie.poster)
   description.innerHTML = currentMovie.description
   audienceScore.innerHTML = currentMovie.audienceScore
+  let castInnerHTML = "<ul>"
   
+  for (let i = 0; i < currentMovie.cast.length; i++) {
+    let role = currentMovie.cast[i].role
+    let actor = currentMovie.cast[i].actor
+    castInnerHTML += ("<li>" + role +":" + actor +"</li>")
+  }
   } 
 
   
