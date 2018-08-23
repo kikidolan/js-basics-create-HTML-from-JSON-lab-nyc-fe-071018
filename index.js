@@ -5,7 +5,6 @@ document.addEventListener("DOMContentLoaded", (e) => {
   const terminator2Button = document.getElementById('Terminator 2')
   titanicButton.addEventListener('click', (event) => {
     //do something
-    updateHTMLContent()
   })
   terminatorButton.addEventListener('click',(event) => {
     //do something
@@ -20,3 +19,6 @@ let filmRating = document.getElementById('filmRating')
 
   title.innerHTML = 'Hi'
   } 
+  
+  updateHTMLContent
+  
