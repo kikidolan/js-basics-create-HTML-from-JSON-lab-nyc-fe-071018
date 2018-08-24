@@ -52,5 +52,5 @@ let reviews = document.getElementById("reviews")
 } 
 
 reviewInnerHTML += "</div>"
-reviews.InnerHTML = reviewInnerHTML
+review.InnerHTML = reviewInnerHTML
   
