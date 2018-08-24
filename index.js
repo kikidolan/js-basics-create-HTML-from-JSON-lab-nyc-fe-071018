@@ -34,6 +34,7 @@ let reviews = document.getElementById("reviews")
   description.innerHTML = currentMovie.description
   audienceScore.innerHTML = currentMovie.audienceScore
   let castInnerHTML = "<ul>"
+  let reviewInnerHTML = "<div>"
   
   for (let i = 0; i < currentMovie.cast.length; i++) {
     let role = currentMovie.cast[i].role
