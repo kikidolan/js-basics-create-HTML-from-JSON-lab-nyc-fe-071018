@@ -52,6 +52,6 @@ function updateHTMLContent(movieName) {
   }
 
 reviewInnerHTML += "</div>"
-reviews.InnerHTML = reviewInnerHTML
+reviews.innerHTML = reviewInnerHTML
 }
   
