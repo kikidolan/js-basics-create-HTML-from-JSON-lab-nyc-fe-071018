@@ -61,6 +61,9 @@ reviews.innerHTML = reviewInnerHTML
   titanicButton.addEventListener('click', (event) => {
     //do something
     updateHTMLContent('Titanic')
+  terminatorButton.addEventListener('click', (event) => {
+    updateHTMLContent('Terminator 2')
+  })
      
   })
   
