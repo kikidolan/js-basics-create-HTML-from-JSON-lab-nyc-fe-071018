@@ -48,7 +48,7 @@ function updateHTMLContent(movieName) {
   for (let review of currentMovie.reviews) {
     let userName = review.userName
     let content = review.content
-    reviewInnerHTML += (userName + ":" + content + "<p>")
+    reviewInnerHTML += ("<p>" + userName + ":" + content + "<p>")
   }
 
 reviewInnerHTML += "</div>"
