@@ -41,6 +41,13 @@ let cast = document.getElementById('cast')
   }
   castInnerHTML += "</ul>"
   cast.innerHTML = castInnerHTML
+  
+  for (let review of currentMovie.reviews) {
+    compoundWord
+    let userName = review.userName
+    let content = review.content
+    reviewInnerHTML += ("<p>" + userName + ":" + content + "<p>")
+  }
 } 
 
   
