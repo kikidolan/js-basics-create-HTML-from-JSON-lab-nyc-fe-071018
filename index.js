@@ -24,6 +24,7 @@ let description = document.getElementById('description')
 let audienceScore = document.getElementById('audienceScore')
 let currentMovie = movies[movieName]
 let cast = document.getElementById('cast')
+let reviews = document.getElementById("reviews")
 
   title.innerHTML = currentMovie.title
   director.innerHTML = currentMovie.director
@@ -43,11 +44,12 @@ let cast = document.getElementById('cast')
   cast.innerHTML = castInnerHTML
   
   for (let review of currentMovie.reviews) {
-    compoundWord
     let userName = review.userName
     let content = review.content
     reviewInnerHTML += ("<p>" + userName + ":" + content + "<p>")
   }
 } 
 
+reviewInnerHTML += "</div>"
+reviews.InnerHTML = reviewInnerHTML
   
