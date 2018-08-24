@@ -49,8 +49,8 @@ let reviews = document.getElementById("reviews")
     let content = review.content
     reviewInnerHTML += ("<p>" + userName + ":" + content + "<p>")
   }
-} 
 
 reviewInnerHTML += "</div>"
-review.InnerHTML = reviewInnerHTML
+reviews.InnerHTML = reviewInnerHTML
+}
   
