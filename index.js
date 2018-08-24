@@ -16,16 +16,16 @@ document.addEventListener("DOMContentLoaded", (e) => {
 });
 
 function updateHTMLContent(movieName) {
-let title = document.getElementById('title')
-let director = document.getElementById('director')
-let genre = document.getElementById('genre')
-let filmRating = document.getElementById('filmRating')
-let poster = document.getElementById('poster')
-let description = document.getElementById('description')
-let audienceScore = document.getElementById('audienceScore')
-let currentMovie = movies[movieName]
-let cast = document.getElementById('cast')
-let reviews = document.getElementById("reviews")
+  let title = document.getElementById('title')
+  let director = document.getElementById('director')
+  let genre = document.getElementById('genre')
+  let filmRating = document.getElementById('filmRating')
+  let poster = document.getElementById('poster')
+  let description = document.getElementById('description')
+  let audienceScore = document.getElementById('audienceScore')
+  let currentMovie = movies[movieName]
+  let cast = document.getElementById('cast')
+  let reviews = document.getElementById("reviews")
 
   title.innerHTML = currentMovie.title
   director.innerHTML = currentMovie.director
