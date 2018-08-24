@@ -56,5 +56,11 @@ reviews.innerHTML = reviewInnerHTML
 }
 
   updateHTMLContent('Titanic')
-
+  const titanicButton = document.getElementById('Titanic')
+  const terminatorButton = document.getElementById('Terminator 2')
+  titanicButton.addEventListener('click', (event) => {
+    //do something
+    updateHTMLContent('Titanic')
+     
+  })
   
