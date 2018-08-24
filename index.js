@@ -23,7 +23,7 @@ let poster = document.getElementById('poster')
 let description = document.getElementById('description')
 let audienceScore = document.getElementById('audienceScore')
 let currentMovie = movies[movieName]
-let cast - document.getElementById('cast')
+let cast = document.getElementById('cast')
 
   title.innerHTML = currentMovie.title
   director.innerHTML = currentMovie.director
